@@ -1,23 +1,17 @@
 
 
-"""
-Comentarios largos
-"""
 
-# Comentarios en linea 
 
-numero = int( input("Numero a analizar") )
+# range() puede recibir hasta 3 parametros
 
-i = 0
-while i < numero:
-    print( i )
-    # i = i + 1
-    i += 1  
+# lista = [ 0, 1, 2, 3, 4, 5 ]
+# for elemnt lista
+# for recorre una lista mientras que e es 
+# cada elemento del listado
+# ( dondeInicia, DondeTermina, saltosDeIndice)
 
+for e in range(0, 10):
+    print( e )
 
 
 
-
-
-
-    
