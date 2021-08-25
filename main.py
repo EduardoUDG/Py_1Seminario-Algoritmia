@@ -1,20 +1,15 @@
 
 
-# Indicamos el tipo de parabetro de retorno la funcion 
-# y tipo de dato que reciben los parametros
-# SOLAMENTE son guias pero con strings sigue funcioando
+from paquete import Paquete
 
-def suma(a:int,b:int)->int:
-    return a+b
+# self nos da acceso a nuestra clase
 
+p = Paquete()
 
-resultado = suma(10, 15)
+p.imprimir()
 
+# Imprimiendo variables publocas
+print( p.destino )
 
-
-
-
-
-
-
-
+# Variables privadas solo son accesibles 
+# desde su propia clase
