@@ -1,23 +1,28 @@
 
 class Paquete:
-    
-    estampilla = "Corazon"
-    # Método Constructor __init__
-    # Los constructores se llaman init "doble guion bajo"
 
-    def __init__( self ):
-        self.__id = "12"# Dos guiones es privado 
-        self._origen = "Londres" # Un guion bajo es protected
-        self.destino = "Tlajomulco" # Un punto publico
-        self.peso = 0.5
+    estampilla = "Corazon"
+
+    def __init__( self,
+         id:str, 
+         origen:str, 
+         destino:str, 
+         peso:float ):
+
+        self.__id = id
+        self._origen = origen
+        self.destino = destino
+        self.peso = peso
 
     # getters & setters
 
     def imprimir( self ):
-        print( self.estampilla, self.__id )
+        print( "Paquete",self.__id,"va de",self._origen,"a",self.destino,"con un peso de",self.peso,"kg" )
 
     def getId( self ):
         return self.__id
+
+
 
     # Protected solo puede ser usada
     # por su misma clase u otras heredaras
