@@ -1,10 +1,23 @@
 
 
+"""
+Comentarios largos
+"""
+
+# Comentarios en linea 
+
 numero = int( input("Numero a analizar") )
 
-if numero>0:
-    print("El numero",numero, "es positivo")
-elif numero<0:
-    print("El numero",numero, "es negativo")
-else:
-    print("El 0 es neutro")
+i = 0
+while i < numero:
+    print( i )
+    # i = i + 1
+    i += 1  
+
+
+
+
+
+
+
+    
