@@ -1,17 +1,20 @@
 
 
+# Indicamos el tipo de parabetro de retorno la funcion 
+# y tipo de dato que reciben los parametros
+# SOLAMENTE son guias pero con strings sigue funcioando
+
+def suma(a:int,b:int)->int:
+    return a+b
 
 
-# range() puede recibir hasta 3 parametros
+resultado = suma(10, 15)
 
-# lista = [ 0, 1, 2, 3, 4, 5 ]
-# for elemnt lista
-# for recorre una lista mientras que e es 
-# cada elemento del listado
-# ( dondeInicia, DondeTermina, saltosDeIndice)
 
-for e in range(0, 10):
-    print( e )
+
+
+
+
 
 
 
