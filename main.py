@@ -12,10 +12,16 @@ ap = "Perez"
 
 print("=== Welcome ===")
 name = input("Introduce tu nombre: ")
-age  = input("Edad: ")
+
+# Convertimos age de STRING a NUMBER
+age  = int(input("Edad: "))
 
 print("Hola", name, "tu edad es:", age)
 
+if ege<18:
+    print("Hola", name, "tu eres menor de edad")
+else:
+    print("Hola", name, "tu eres mayor de edad")
 
 
 
